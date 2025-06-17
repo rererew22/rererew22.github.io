@@ -2,7 +2,6 @@
 // 🔐 Настройки
 $botToken = '7696277746:AAHJuCfOtQLiRMS4VlkynIDYJxk3GfgLBHw'; // ← ВСТАВЬ свой токен
 $chatId   = '-4975651429';
-    // ← ВСТАВЬ свой chat_id
 
 // 📥 Получаем данные
 $data = json_decode(file_get_contents('php://input'), true);
